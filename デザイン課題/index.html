@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>yurihana</title>
+  <meta name="description" content="リンパエステのお店">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- swiper専用CSSファイルの読み込み -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+  <div id="home" class="big-bg">
+
+    <!-- Swiper START -->
+    <!-- 全体を括るコンテナ -->
+    <div class="swiper-container">
+      <!-- 全スライド -->
+      <div class="swiper-wrapper">
+        <!-- 各スライド -->
+        <div class="swiper-slide main01">
+          <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/ゆり２.jpg" alt="ゆり花 ホーム"></a></h1>
+            <nav>
+              <ul class="main-nav">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="home-content wrapper">
+            <h2 class="page-title">キャッチコピー</h2>
+            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確 認するための文章です。この文章はダミーです。50</p>
+            <a class="button" href="#">メニューを見る</a>
+          </div><!-- /.home-content -->
+        </div>
+        <div class="swiper-slide main02">
+          <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/ゆり２.jpg" alt="ゆり花 ホーム"></a></h1>
+            <nav>
+              <ul class="main-nav">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="home-content wrapper">
+            <h2 class="page-title">キャッチコピー</h2>
+            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確 認するための文章です。この文章はダミーです。50</p>
+            <a class="button" href="#">メニューを見る</a>
+          </div><!-- /.home-content -->
+        </div>
+        <div class="swiper-slide main03">
+          <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/ゆり２.jpg" alt="ゆり花 ホーム"></a></h1>
+            <nav>
+              <ul class="main-nav">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="home-content wrapper">
+            <h2 class="page-title">キャッチコピー</h2>
+            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確 認するための文章です。この文章はダミーです。50</p>
+            <a class="button" href="#">メニューを見る</a>
+          </div><!-- /.home-content -->
+        </div>
+      </div>
+    </div>
+    <!-- Swiper END -->
+  </div><!-- /#home -->
+  <!-- Swiper専用のjsファイルの読み込み -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- 「Swiper」を動かす定義 -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: "fade", //クロスフェード
+      loop: true, //ループさせる
+      speed: 1000, //１秒かけて次の画像へ
+      autoplay: {
+        delay: 2000, //２秒表示させて次の画像へ
+      }
+    });
+  </script>
+
+  <!-- ニュース -->
+  <div class="wrapper">
+    <h2 class="page-title">News</h2>
+    <header class="post-info">
+      <h2 class="post-title">ニュースタイトルニュースタイトル</h2>
+      <p class="post-date">3/30 <span>2019</span></p>
+      <p class="post-cat">カテゴリー：news</p>
+    </header>
+  </div>
+
+  <!-- /.wrapper -->
+
+  <div class="news-contents">
+
+    <img src="images/エステ店内.jpg" alt="店内の様子">
+
+    <h2>ゆり花とは ... ?</h2>
+
+    <p>
+      この文章はダミーです。文字の大きさ、量、字間、行間等を確認するための文章です。 この文章はダミーです。50 この文章はダミーです。
+      文字の大きさ、量、字間、行間等を確認するための文章です。この文章はダミーです。100
+
+    </p>
+  </div>
+
+
+
+  <!-- メニュー -->
+  <div class="wrapper grid">
+    <div class="item">
+      <img src="images/エステ効果1.jpg" alt="">
+      写真キャプション写真キャプション
+    </div>
+    <div class="item">
+      <img src="images/エステ効果5.webp" alt="">
+      写真キャプション写真キャプション
+    </div>
+    <div class="item">
+      <img src="images/エステ効果3.jpg" alt="">
+      写真キャプション写真キャプション
+    </div>
+
+  </div><!-- grid -->
+  <footer>
+    <div class="wrapper">
+</body>
+
+</html>
